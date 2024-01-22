@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <InvariantGlobalization>true</InvariantGlobalization>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Aspire.Dashboard" Version="8.0.0-preview.2.23619.3" />
+        <PackageReference Include="Azure.Monitor.OpenTelemetry.Exporter" Version="1.1.0" />
+        <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="8.0.0"/>
+<!--        <PackageReference Include="OpenTelemetry" Version="1.7.0" />-->
+<!--        <PackageReference Include="OpenTelemetry.Exporter.OpenTelemetryProtocol" Version="1.7.0" />-->
+<!--        <PackageReference Include="OpenTelemetry.Extensions.AzureMonitor" Version="1.0.0-beta.4" />-->
+        <PackageReference Include="OpenTelemetry.Extensions.Hosting" Version="1.7.0" />
+        <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0"/>        
+    </ItemGroup>
+
+</Project>
